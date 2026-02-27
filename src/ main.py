@@ -3,7 +3,8 @@ print("Bipasha Saha")
 from datetime import date
 print(date.today())
 
-from utils import add,subtract
+from utils import add,subtract,multiply
 
 print(add(10,5))
 print(subtract(10,5))
+print(multiply(10, 5))
