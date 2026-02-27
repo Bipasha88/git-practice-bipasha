@@ -5,6 +5,20 @@ print(date.today())
 
 from utils import add,subtract,multiply
 
-print(add(10,5))
-print(subtract(10,5))
-print(multiply(10, 5))
+# main.py
+
+import utils
+
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    print("Add:", utils.add(num1, num2))
+    print("Subtract:", utils.subtract(num1, num2))
+    print("Multiply:", utils.multiply(num1, num2))
+
+except ValueError:
+    print("Error: Please enter valid numbers.")
+
+except Exception as e:
+    print("Unexpected error:", e)
