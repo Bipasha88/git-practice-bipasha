@@ -1,7 +1,14 @@
-# Git Practice
+# Simple Math Project
 
-**Bipasha Saha**
+This project demonstrates basic Python functions.
 
-```
-Learn How To Use Github For Version Controlling
-```
+## Functions
+
+- add(a, b)
+- subtract(a, b)
+- multiply(a, b)
+
+## How to Run
+
+```bash
+python main.py
